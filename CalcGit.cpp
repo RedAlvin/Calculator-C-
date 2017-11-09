@@ -149,7 +149,7 @@ int main()
      			
      		cout<<"          E' stato scelto il calcolo del seno e del coseno!"<<endl;
      		cout<<"          Inserisci l'ampiezza dell'angolo: ";
-     		in>>grad;
+     		cin>>grad;
      		radx=grad*2*M_PI/360.0;
      		senx=sin(radx);
      		cosx=cos(radx);
