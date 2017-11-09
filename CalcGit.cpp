@@ -31,14 +31,14 @@ int main()
 				        break;
 				case 17:cout<<"      (7) Seno E Coseno                                               ";
 				        break;
-                case 19:cout<<"      (8) Potenza                                                     ";
-                        break;
+                		case 19:cout<<"      (8) Potenza                                                     ";
+                       		        break;
 				case 21:cout<<"      (9) Conversione da base x a base y                              ";
 				        break;
-                case 23:cout<<"      (0) Esci                                                        ";
+		                case 23:cout<<"      (0) Esci                                                        ";
 				        break;
 				default :  for (int z=0; z<lung; z++)
-        						cout<<char(32);
+        				   cout<<char(32);
 	 
 			}
 			cout << char (186) << endl;
@@ -54,8 +54,8 @@ int main()
         switch (cont){
         	default:
         		
-        		cout<<"          Modalita' attualmente non disponibile"<<endl<<endl<<endl;
-        		cout<<"          "; 
+        	cout<<"          Modalita' attualmente non disponibile"<<endl<<endl<<endl;
+        	cout<<"          "; 
                 system ("PAUSE");
                 break;
             case 1:
@@ -139,22 +139,22 @@ int main()
             	cout<<"          Su quale numero vuoi fare la radice? ";
             	cin>>numero1;
                 cout<<"          Che valore ha l'indice della radice? ";
-     			cin>>numero2;
-     			risultato=pow(numero1, 1.0/numero2);
-     			cout<<"          Il risultato di questa radice e' di "<<risultato<<endl<<endl<<endl;
-     			cout<<"          ";
-     			system("Pause");
-     			break;
-     		case 7:
+     		cin>>numero2;
+     		risultato=pow(numero1, 1.0/numero2);
+     		cout<<"          Il risultato di questa radice e' di "<<risultato<<endl<<endl<<endl;
+     		cout<<"          ";
+     		system("Pause");
+     		break;
+     	    case 7:
      			
-     			cout<<"          E' stato scelto il calcolo del seno e del coseno!"<<endl;
-     			cout<<"          Inserisci l'ampiezza dell'angolo: ";
-     			cin>>grad;
-     			radx=grad*2*M_PI/360.0;
-     			senx=sin(radx);
-     			cosx=cos(radx);
-     			cout<<"          Il coseno di "<<grad<<" e' di "<<cosx<<endl<<"          Il seno di "<<grad<<" e' di "<<senx<<endl<<endl<<endl;
-				cout<<"          "; 
+     		cout<<"          E' stato scelto il calcolo del seno e del coseno!"<<endl;
+     		cout<<"          Inserisci l'ampiezza dell'angolo: ";
+     		in>>grad;
+     		radx=grad*2*M_PI/360.0;
+     		senx=sin(radx);
+     		cosx=cos(radx);
+     		cout<<"          Il coseno di "<<grad<<" e' di "<<cosx<<endl<<"          Il seno di "<<grad<<" e' di "<<senx<<endl<<endl<<endl;
+		cout<<"          "; 
                 system ("PAUSE");
                 break;
             case 8:
@@ -172,9 +172,8 @@ int main()
             	cout<<"          "; 
                 system ("PAUSE");
                 break;
-            case 0:
-			       
-				   cout<<"          La calcolatrice e' stata terminata con successo!"<<endl<<endl<<endl<<"Devoloped by Alvise Dei Rossi, Daniele Di Costanzo, Andrea Ballarin"<<endl<<endl;
+	    case 0:
+		cout<<"          La calcolatrice e' stata terminata con successo!"<<endl<<endl<<endl<<"Devoloped by Alvise Dei Rossi, Daniele Di Costanzo, Andrea Ballarin"<<endl<<endl;
         }
     }
     system("PAUSE");
