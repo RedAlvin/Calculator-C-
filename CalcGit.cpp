@@ -31,14 +31,14 @@ int main()
 				        break;
 				case 17:cout<<"      (7) Seno E Coseno                                               ";
 				        break;
-                case 19:cout<<"      (8) Potenza                                                     ";
-                       	break;
+                		case 19:cout<<"      (8) Potenza                                                     ";
+                       			break;
 				case 21:cout<<"      (9) Conversione da base x a base y                              ";
 				        break;
-		        case 23:cout<<"      (0) Esci                                                        ";
+		        	case 23:cout<<"      (0) Esci                                                        ";
 				        break;
-				default :  for (int z=0; z<lung; z++)
-        				   cout<<char(32);
+				default :for (int z=0; z<lung; z++)
+        				 cout<<char(32);
 	 
 			}
 			cout << char (186) << endl;
